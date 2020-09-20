@@ -1,0 +1,16 @@
+
+import torch
+# Constants
+NUM_INPUT_CHANNELS = 3
+NUM_CLASSES = 2
+NUM_OUTPUT_CHANNELS = NUM_CLASSES
+
+
+torch.manual_seed(192)
+
+ALPHA = 0.5
+NUM_EPOCHS = 1500
+BATCH_SIZE = 40
+LEARNING_RATE = 1e-4
+MOMENTUM = 0.9
+
