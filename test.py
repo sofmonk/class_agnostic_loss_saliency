@@ -150,7 +150,7 @@ def validate():
 
 if __name__ == "__main__":
 
-    save_dir = '/../../mnt/data4/sofmonk/evaluate_sup_mat/deep_cas/'
+    save_dir = '/../../mnt/data4/username/evaluate_sup_mat/deep_cas/'
     os.mkdir('{}'.format(save_dir + dataset))
     os.makedirs('{}/{}'.format(save_dir+dataset, 'gt'))
     os.makedirs('{}/{}'.format(save_dir+dataset, 'pred_1'))
@@ -169,21 +169,21 @@ if __name__ == "__main__":
 
     if dataset == 'M':
 
-        data_root = '/home/sofmonk/datasets/saliency/MSRA_10k/MSRA10K_Imgs_GT/MSRA10K_Imgs_GT/Imgs/'
+        data_root = '/home/username/datasets/saliency/MSRA_10k/MSRA10K_Imgs_GT/MSRA10K_Imgs_GT/Imgs/'
         val_path = data_root + 'testing.txt'
         img_dir =  data_root
         mask_dir = data_root
 
     if dataset == 'D':
 
-        data_root = '/../../mnt/data4/sofmonk/DUTS/DUTS-TE/'
+        data_root = '/../../mnt/data4/username/DUTS/DUTS-TE/'
         val_path = data_root + 'test.txt'
         img_dir =  data_root + 'DUTS-TE-Image/'
         mask_dir = data_root + 'DUTS-TE-Mask/'
 
     if dataset == 'E':
 
-        data_root = '/../../mnt/data4/sofmonk/ECSSD/'
+        data_root = '/../../mnt/data4/username/ECSSD/'
         val_path = data_root + 'images/all.txt'
         
         img_dir =  data_root + 'images/'
@@ -191,7 +191,7 @@ if __name__ == "__main__":
 
     if dataset == 'P':
 
-        data_root = '/../../mnt/data4/sofmonk/salObj/datasets/'
+        data_root = '/../../mnt/data4/username/salObj/datasets/'
         val_path = data_root + 'imgs/pascal/all.txt'
         
         img_dir =  data_root + 'imgs/pascal/'
@@ -200,7 +200,7 @@ if __name__ == "__main__":
 
     if dataset == 'H':
 
-        data_root = '/../../mnt/data4/sofmonk/HKU-IS/'
+        data_root = '/../../mnt/data4/username/HKU-IS/'
         val_path = data_root + 'test.txt'
         
         img_dir =  data_root + 'imgs/'
@@ -208,7 +208,7 @@ if __name__ == "__main__":
 
     if dataset == 'O':
 
-        data_root = '/../../mnt/data4/sofmonk/DUT-OMRON/'
+        data_root = '/../../mnt/data4/username/DUT-OMRON/'
         val_path = data_root + 'DUT-OMRON-image/DUT-OMRON-image/all.txt'
  
         img_dir =  data_root + 'DUT-OMRON-image/DUT-OMRON-image/'
@@ -216,7 +216,7 @@ if __name__ == "__main__":
 
     if dataset == 'B':
 
-        data_root = '/../../mnt/data4/sofmonk/MSRA-B/'
+        data_root = '/../../mnt/data4/username/MSRA-B/'
         val_path = data_root + 'test.txt'
         
         img_dir =  data_root 
@@ -224,7 +224,7 @@ if __name__ == "__main__":
 
     if dataset == 'T':
 
-        data_root = '/../../mnt/data4/sofmonk/THUR15000/all/'
+        data_root = '/../../mnt/data4/username/THUR15000/all/'
         val_path = data_root + 'all_test.txt'
         
         img_dir =  data_root 
